@@ -1,0 +1,1453 @@
+
+//http://openweathermap.org/img/wn/10d@2x.png     Icon URL
+
+
+city =     {
+    coord =         {
+        lat = "46.8403";
+        lon = "29.6433";
+    };
+    country = MD;
+    id = 617239;
+    name = Tiraspol;
+    population = 157000;
+    sunrise = 1609998345;
+    sunset = 1610029756;
+    timezone = 7200;
+};
+cnt = 40;
+cod = 200;
+list =     (
+            {
+        clouds =             {
+            all = 42;
+        };
+        dt = 1610031600;
+        "dt_txt" = "2021-01-07 15:00:00";
+        main =             {
+            "feels_like" = "274.82";
+            "grnd_level" = 1005;
+            humidity = 80;
+            pressure = 1008;
+            "sea_level" = 1008;
+            temp = "280.88";
+            "temp_kf" = "0.28";
+            "temp_max" = "280.88";
+            "temp_min" = "280.6";
+        };
+        pop = "0.26";
+        sys =             {
+            pod = n;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "scattered clouds";
+                icon = 03n;
+                id = 802;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 283;
+            speed = "6.91";
+        };
+    },
+            {
+        clouds =             {
+            all = 34;
+        };
+        dt = 1610042400;
+        "dt_txt" = "2021-01-07 18:00:00";
+        main =             {
+            "feels_like" = "273.82";
+            "grnd_level" = 1008;
+            humidity = 81;
+            pressure = 1011;
+            "sea_level" = 1011;
+            temp = "278.83";
+            "temp_kf" = "0.64";
+            "temp_max" = "278.83";
+            "temp_min" = "278.19";
+        };
+        pop = "0.17";
+        sys =             {
+            pod = n;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "scattered clouds";
+                icon = 03n;
+                id = 802;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 286;
+            speed = "4.93";
+        };
+    },
+            {
+        clouds =             {
+            all = 2;
+        };
+        dt = 1610053200;
+        "dt_txt" = "2021-01-07 21:00:00";
+        main =             {
+            "feels_like" = "273.07";
+            "grnd_level" = 1010;
+            humidity = 82;
+            pressure = 1014;
+            "sea_level" = 1014;
+            temp = "277.11";
+            "temp_kf" = "0.28";
+            "temp_max" = "277.11";
+            "temp_min" = "276.83";
+        };
+        pop = 0;
+        sys =             {
+            pod = n;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "clear sky";
+                icon = 01n;
+                id = 800;
+                main = Clear;
+            }
+        );
+        wind =             {
+            deg = 258;
+            speed = "3.19";
+        };
+    },
+            {
+        clouds =             {
+            all = 13;
+        };
+        dt = 1610064000;
+        "dt_txt" = "2021-01-08 00:00:00";
+        main =             {
+            "feels_like" = "271.83";
+            "grnd_level" = 1011;
+            humidity = 78;
+            pressure = 1015;
+            "sea_level" = 1015;
+            temp = "276.19";
+            "temp_kf" = "0.04";
+            "temp_max" = "276.19";
+            "temp_min" = "276.15";
+        };
+        pop = 0;
+        sys =             {
+            pod = n;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "few clouds";
+                icon = 02n;
+                id = 801;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 278;
+            speed = "3.31";
+        };
+    },
+            {
+        clouds =             {
+            all = 33;
+        };
+        dt = 1610074800;
+        "dt_txt" = "2021-01-08 03:00:00";
+        main =             {
+            "feels_like" = "271.78";
+            "grnd_level" = 1012;
+            humidity = 80;
+            pressure = 1016;
+            "sea_level" = 1016;
+            temp = "275.41";
+            "temp_kf" = 0;
+            "temp_max" = "275.41";
+            "temp_min" = "275.41";
+        };
+        pop = 0;
+        sys =             {
+            pod = n;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "scattered clouds";
+                icon = 03n;
+                id = 802;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 309;
+            speed = "2.18";
+        };
+    },
+            {
+        clouds =             {
+            all = 66;
+        };
+        dt = 1610085600;
+        "dt_txt" = "2021-01-08 06:00:00";
+        main =             {
+            "feels_like" = "272.91";
+            "grnd_level" = 1012;
+            humidity = 81;
+            pressure = 1017;
+            "sea_level" = 1017;
+            temp = "275.27";
+            "temp_kf" = 0;
+            "temp_max" = "275.27";
+            "temp_min" = "275.27";
+        };
+        pop = 0;
+        sys =             {
+            pod = d;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "broken clouds";
+                icon = 04d;
+                id = 803;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 153;
+            speed = "0.38";
+        };
+    },
+            {
+        clouds =             {
+            all = 100;
+        };
+        dt = 1610096400;
+        "dt_txt" = "2021-01-08 09:00:00";
+        main =             {
+            "feels_like" = "274.41";
+            "grnd_level" = 1012;
+            humidity = 69;
+            pressure = 1016;
+            "sea_level" = 1016;
+            temp = "277.53";
+            "temp_kf" = 0;
+            "temp_max" = "277.53";
+            "temp_min" = "277.53";
+        };
+        pop = 0;
+        sys =             {
+            pod = d;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "overcast clouds";
+                icon = 04d;
+                id = 804;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 70;
+            speed = "1.46";
+        };
+    },
+            {
+        clouds =             {
+            all = 100;
+        };
+        dt = 1610107200;
+        "dt_txt" = "2021-01-08 12:00:00";
+        main =             {
+            "feels_like" = "274.24";
+            "grnd_level" = 1011;
+            humidity = 67;
+            pressure = 1015;
+            "sea_level" = 1015;
+            temp = "278.09";
+            "temp_kf" = 0;
+            "temp_max" = "278.09";
+            "temp_min" = "278.09";
+        };
+        pop = "0.11";
+        sys =             {
+            pod = d;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "overcast clouds";
+                icon = 04d;
+                id = 804;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 118;
+            speed = "2.53";
+        };
+    },
+            {
+        clouds =             {
+            all = 100;
+        };
+        dt = 1610118000;
+        "dt_txt" = "2021-01-08 15:00:00";
+        main =             {
+            "feels_like" = "270.41";
+            "grnd_level" = 1009;
+            humidity = 91;
+            pressure = 1013;
+            "sea_level" = 1013;
+            temp = "274.99";
+            "temp_kf" = 0;
+            "temp_max" = "274.99";
+            "temp_min" = "274.99";
+        };
+        pop = "0.73";
+        snow =             {
+            3h = "1.73";
+        };
+        sys =             {
+            pod = n;
+        };
+        visibility = 6504;
+        weather =             (
+                            {
+                description = snow;
+                icon = 13n;
+                id = 601;
+                main = Snow;
+            }
+        );
+        wind =             {
+            deg = 61;
+            speed = "3.82";
+        };
+    },
+            {
+        clouds =             {
+            all = 100;
+        };
+        dt = 1610128800;
+        "dt_txt" = "2021-01-08 18:00:00";
+        main =             {
+            "feels_like" = "268.49";
+            "grnd_level" = 1008;
+            humidity = 95;
+            pressure = 1012;
+            "sea_level" = 1012;
+            temp = "274.49";
+            "temp_kf" = 0;
+            "temp_max" = "274.49";
+            "temp_min" = "274.49";
+        };
+        pop = "0.9399999999999999";
+        snow =             {
+            3h = "2.61";
+        };
+        sys =             {
+            pod = n;
+        };
+        visibility = 48;
+        weather =             (
+                            {
+                description = snow;
+                icon = 13n;
+                id = 601;
+                main = Snow;
+            }
+        );
+        wind =             {
+            deg = 46;
+            speed = "5.87";
+        };
+    },
+            {
+        clouds =             {
+            all = 100;
+        };
+        dt = 1610139600;
+        "dt_txt" = "2021-01-08 21:00:00";
+        main =             {
+            "feels_like" = "267.41";
+            "grnd_level" = 1006;
+            humidity = 96;
+            pressure = 1011;
+            "sea_level" = 1011;
+            temp = "273.82";
+            "temp_kf" = 0;
+            "temp_max" = "273.82";
+            "temp_min" = "273.82";
+        };
+        pop = 1;
+        snow =             {
+            3h = "3.42";
+        };
+        sys =             {
+            pod = n;
+        };
+        visibility = 31;
+        weather =             (
+                            {
+                description = snow;
+                icon = 13n;
+                id = 601;
+                main = Snow;
+            }
+        );
+        wind =             {
+            deg = 26;
+            speed = "6.34";
+        };
+    },
+            {
+        clouds =             {
+            all = 100;
+        };
+        dt = 1610150400;
+        "dt_txt" = "2021-01-09 00:00:00";
+        main =             {
+            "feels_like" = "267.3";
+            "grnd_level" = 1008;
+            humidity = 95;
+            pressure = 1012;
+            "sea_level" = 1012;
+            temp = "274.14";
+            "temp_kf" = 0;
+            "temp_max" = "274.14";
+            "temp_min" = "274.14";
+        };
+        pop = 1;
+        snow =             {
+            3h = "1.05";
+        };
+        sys =             {
+            pod = n;
+        };
+        visibility = 49;
+        weather =             (
+                            {
+                description = "light snow";
+                icon = 13n;
+                id = 600;
+                main = Snow;
+            }
+        );
+        wind =             {
+            deg = 8;
+            speed = 7;
+        };
+    },
+            {
+        clouds =             {
+            all = 100;
+        };
+        dt = 1610161200;
+        "dt_txt" = "2021-01-09 03:00:00";
+        main =             {
+            "feels_like" = "268.75";
+            "grnd_level" = 1009;
+            humidity = 95;
+            pressure = 1014;
+            "sea_level" = 1014;
+            temp = "273.97";
+            "temp_kf" = 0;
+            "temp_max" = "273.97";
+            "temp_min" = "273.97";
+        };
+        pop = "0.6899999999999999";
+        snow =             {
+            3h = "0.43";
+        };
+        sys =             {
+            pod = n;
+        };
+        visibility = 3784;
+        weather =             (
+                            {
+                description = "light snow";
+                icon = 13n;
+                id = 600;
+                main = Snow;
+            }
+        );
+        wind =             {
+            deg = 345;
+            speed = "4.65";
+        };
+    },
+            {
+        clouds =             {
+            all = 83;
+        };
+        dt = 1610172000;
+        "dt_txt" = "2021-01-09 06:00:00";
+        main =             {
+            "feels_like" = "267.68";
+            "grnd_level" = 1012;
+            humidity = 97;
+            pressure = 1016;
+            "sea_level" = 1016;
+            temp = "272.99";
+            "temp_kf" = 0;
+            "temp_max" = "272.99";
+            "temp_min" = "272.99";
+        };
+        pop = "0.27";
+        sys =             {
+            pod = d;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "broken clouds";
+                icon = 04d;
+                id = 803;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 321;
+            speed = "4.63";
+        };
+    },
+            {
+        clouds =             {
+            all = 0;
+        };
+        dt = 1610182800;
+        "dt_txt" = "2021-01-09 09:00:00";
+        main =             {
+            "feels_like" = "269.46";
+            "grnd_level" = 1014;
+            humidity = 83;
+            pressure = 1018;
+            "sea_level" = 1018;
+            temp = "275.31";
+            "temp_kf" = 0;
+            "temp_max" = "275.31";
+            "temp_min" = "275.31";
+        };
+        pop = 0;
+        sys =             {
+            pod = d;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "clear sky";
+                icon = 01d;
+                id = 800;
+                main = Clear;
+            }
+        );
+        wind =             {
+            deg = 318;
+            speed = "5.43";
+        };
+    },
+            {
+        clouds =             {
+            all = 8;
+        };
+        dt = 1610193600;
+        "dt_txt" = "2021-01-09 12:00:00";
+        main =             {
+            "feels_like" = "270.98";
+            "grnd_level" = 1014;
+            humidity = 77;
+            pressure = 1018;
+            "sea_level" = 1018;
+            temp = "276.47";
+            "temp_kf" = 0;
+            "temp_max" = "276.47";
+            "temp_min" = "276.47";
+        };
+        pop = 0;
+        sys =             {
+            pod = d;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "clear sky";
+                icon = 01d;
+                id = 800;
+                main = Clear;
+            }
+        );
+        wind =             {
+            deg = 304;
+            speed = "4.94";
+        };
+    },
+            {
+        clouds =             {
+            all = 34;
+        };
+        dt = 1610204400;
+        "dt_txt" = "2021-01-09 15:00:00";
+        main =             {
+            "feels_like" = "269.53";
+            "grnd_level" = 1016;
+            humidity = 90;
+            pressure = 1020;
+            "sea_level" = 1020;
+            temp = "274.1";
+            "temp_kf" = 0;
+            "temp_max" = "274.1";
+            "temp_min" = "274.1";
+        };
+        pop = 0;
+        sys =             {
+            pod = n;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "scattered clouds";
+                icon = 03n;
+                id = 802;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 277;
+            speed = "3.59";
+        };
+    },
+            {
+        clouds =             {
+            all = 31;
+        };
+        dt = 1610215200;
+        "dt_txt" = "2021-01-09 18:00:00";
+        main =             {
+            "feels_like" = "268.72";
+            "grnd_level" = 1018;
+            humidity = 96;
+            pressure = 1022;
+            "sea_level" = 1022;
+            temp = "273.06";
+            "temp_kf" = 0;
+            "temp_max" = "273.06";
+            "temp_min" = "273.06";
+        };
+        pop = 0;
+        sys =             {
+            pod = n;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "scattered clouds";
+                icon = 03n;
+                id = 802;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 271;
+            speed = "3.23";
+        };
+    },
+            {
+        clouds =             {
+            all = 15;
+        };
+        dt = 1610226000;
+        "dt_txt" = "2021-01-09 21:00:00";
+        main =             {
+            "feels_like" = "268.95";
+            "grnd_level" = 1018;
+            humidity = 96;
+            pressure = 1023;
+            "sea_level" = 1023;
+            temp = "272.78";
+            "temp_kf" = 0;
+            "temp_max" = "272.78";
+            "temp_min" = "272.78";
+        };
+        pop = 0;
+        sys =             {
+            pod = n;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "few clouds";
+                icon = 02n;
+                id = 801;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 286;
+            speed = "2.45";
+        };
+    },
+            {
+        clouds =             {
+            all = 38;
+        };
+        dt = 1610236800;
+        "dt_txt" = "2021-01-10 00:00:00";
+        main =             {
+            "feels_like" = "269.22";
+            "grnd_level" = 1019;
+            humidity = 95;
+            pressure = 1023;
+            "sea_level" = 1023;
+            temp = "272.74";
+            "temp_kf" = 0;
+            "temp_max" = "272.74";
+            "temp_min" = "272.74";
+        };
+        pop = 0;
+        sys =             {
+            pod = n;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "scattered clouds";
+                icon = 03n;
+                id = 802;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 325;
+            speed = "1.97";
+        };
+    },
+            {
+        clouds =             {
+            all = 100;
+        };
+        dt = 1610247600;
+        "dt_txt" = "2021-01-10 03:00:00";
+        main =             {
+            "feels_like" = "269.46";
+            "grnd_level" = 1020;
+            humidity = 95;
+            pressure = 1024;
+            "sea_level" = 1024;
+            temp = "272.79";
+            "temp_kf" = 0;
+            "temp_max" = "272.79";
+            "temp_min" = "272.79";
+        };
+        pop = 0;
+        sys =             {
+            pod = n;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "overcast clouds";
+                icon = 04n;
+                id = 804;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 301;
+            speed = "1.7";
+        };
+    },
+            {
+        clouds =             {
+            all = 100;
+        };
+        dt = 1610258400;
+        "dt_txt" = "2021-01-10 06:00:00";
+        main =             {
+            "feels_like" = "269.6";
+            "grnd_level" = 1021;
+            humidity = 95;
+            pressure = 1025;
+            "sea_level" = 1025;
+            temp = "272.74";
+            "temp_kf" = 0;
+            "temp_max" = "272.74";
+            "temp_min" = "272.74";
+        };
+        pop = 0;
+        sys =             {
+            pod = d;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "overcast clouds";
+                icon = 04d;
+                id = 804;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 311;
+            speed = "1.42";
+        };
+    },
+            {
+        clouds =             {
+            all = 100;
+        };
+        dt = 1610269200;
+        "dt_txt" = "2021-01-10 09:00:00";
+        main =             {
+            "feels_like" = "271.14";
+            "grnd_level" = 1022;
+            humidity = 83;
+            pressure = 1026;
+            "sea_level" = 1026;
+            temp = "274.74";
+            "temp_kf" = 0;
+            "temp_max" = "274.74";
+            "temp_min" = "274.74";
+        };
+        pop = 0;
+        sys =             {
+            pod = d;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "overcast clouds";
+                icon = 04d;
+                id = 804;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 309;
+            speed = "2.11";
+        };
+    },
+            {
+        clouds =             {
+            all = 100;
+        };
+        dt = 1610280000;
+        "dt_txt" = "2021-01-10 12:00:00";
+        main =             {
+            "feels_like" = "271.56";
+            "grnd_level" = 1021;
+            humidity = 78;
+            pressure = 1025;
+            "sea_level" = 1025;
+            temp = "275.46";
+            "temp_kf" = 0;
+            "temp_max" = "275.46";
+            "temp_min" = "275.46";
+        };
+        pop = 0;
+        sys =             {
+            pod = d;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "overcast clouds";
+                icon = 04d;
+                id = 804;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 324;
+            speed = "2.51";
+        };
+    },
+            {
+        clouds =             {
+            all = 99;
+        };
+        dt = 1610290800;
+        "dt_txt" = "2021-01-10 15:00:00";
+        main =             {
+            "feels_like" = "269.9";
+            "grnd_level" = 1021;
+            humidity = 91;
+            pressure = 1026;
+            "sea_level" = 1026;
+            temp = "273.4";
+            "temp_kf" = 0;
+            "temp_max" = "273.4";
+            "temp_min" = "273.4";
+        };
+        pop = 0;
+        sys =             {
+            pod = n;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "overcast clouds";
+                icon = 04n;
+                id = 804;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 343;
+            speed = "1.95";
+        };
+    },
+            {
+        clouds =             {
+            all = 99;
+        };
+        dt = 1610301600;
+        "dt_txt" = "2021-01-10 18:00:00";
+        main =             {
+            "feels_like" = "269.82";
+            "grnd_level" = 1022;
+            humidity = 93;
+            pressure = 1026;
+            "sea_level" = 1026;
+            temp = 273;
+            "temp_kf" = 0;
+            "temp_max" = 273;
+            "temp_min" = 273;
+        };
+        pop = 0;
+        sys =             {
+            pod = n;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "overcast clouds";
+                icon = 04n;
+                id = 804;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 6;
+            speed = "1.47";
+        };
+    },
+            {
+        clouds =             {
+            all = 100;
+        };
+        dt = 1610312400;
+        "dt_txt" = "2021-01-10 21:00:00";
+        main =             {
+            "feels_like" = "269.6";
+            "grnd_level" = 1021;
+            humidity = 93;
+            pressure = 1026;
+            "sea_level" = 1026;
+            temp = "272.77";
+            "temp_kf" = 0;
+            "temp_max" = "272.77";
+            "temp_min" = "272.77";
+        };
+        pop = 0;
+        sys =             {
+            pod = n;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "overcast clouds";
+                icon = 04n;
+                id = 804;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 13;
+            speed = "1.42";
+        };
+    },
+            {
+        clouds =             {
+            all = 100;
+        };
+        dt = 1610323200;
+        "dt_txt" = "2021-01-11 00:00:00";
+        main =             {
+            "feels_like" = "268.57";
+            "grnd_level" = 1020;
+            humidity = 94;
+            pressure = 1024;
+            "sea_level" = 1024;
+            temp = "272.41";
+            "temp_kf" = 0;
+            "temp_max" = "272.41";
+            "temp_min" = "272.41";
+        };
+        pop = 0;
+        sys =             {
+            pod = n;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "overcast clouds";
+                icon = 04n;
+                id = 804;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 56;
+            speed = "2.33";
+        };
+    },
+            {
+        clouds =             {
+            all = 100;
+        };
+        dt = 1610334000;
+        "dt_txt" = "2021-01-11 03:00:00";
+        main =             {
+            "feels_like" = "267.56";
+            "grnd_level" = 1018;
+            humidity = 94;
+            pressure = 1023;
+            "sea_level" = 1023;
+            temp = "272.21";
+            "temp_kf" = 0;
+            "temp_max" = "272.21";
+            "temp_min" = "272.21";
+        };
+        pop = 0;
+        sys =             {
+            pod = n;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "overcast clouds";
+                icon = 04n;
+                id = 804;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 59;
+            speed = "3.45";
+        };
+    },
+            {
+        clouds =             {
+            all = 100;
+        };
+        dt = 1610344800;
+        "dt_txt" = "2021-01-11 06:00:00";
+        main =             {
+            "feels_like" = "267.38";
+            "grnd_level" = 1018;
+            humidity = 94;
+            pressure = 1022;
+            "sea_level" = 1022;
+            temp = "272.42";
+            "temp_kf" = 0;
+            "temp_max" = "272.42";
+            "temp_min" = "272.42";
+        };
+        pop = 0;
+        sys =             {
+            pod = d;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "overcast clouds";
+                icon = 04d;
+                id = 804;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 78;
+            speed = "4.05";
+        };
+    },
+            {
+        clouds =             {
+            all = 100;
+        };
+        dt = 1610355600;
+        "dt_txt" = "2021-01-11 09:00:00";
+        main =             {
+            "feels_like" = "267.15";
+            "grnd_level" = 1017;
+            humidity = 96;
+            pressure = 1022;
+            "sea_level" = 1022;
+            temp = "272.63";
+            "temp_kf" = 0;
+            "temp_max" = "272.63";
+            "temp_min" = "272.63";
+        };
+        pop = "0.58";
+        snow =             {
+            3h = "0.67";
+        };
+        sys =             {
+            pod = d;
+        };
+        visibility = 2030;
+        weather =             (
+                            {
+                description = "light snow";
+                icon = 13d;
+                id = 600;
+                main = Snow;
+            }
+        );
+        wind =             {
+            deg = 73;
+            speed = "4.77";
+        };
+    },
+            {
+        clouds =             {
+            all = 100;
+        };
+        dt = 1610366400;
+        "dt_txt" = "2021-01-11 12:00:00";
+        main =             {
+            "feels_like" = "267.81";
+            "grnd_level" = 1016;
+            humidity = 97;
+            pressure = 1021;
+            "sea_level" = 1021;
+            temp = "272.62";
+            "temp_kf" = 0;
+            "temp_max" = "272.62";
+            "temp_min" = "272.62";
+        };
+        pop = "0.8";
+        snow =             {
+            3h = "1.1";
+        };
+        sys =             {
+            pod = d;
+        };
+        visibility = 731;
+        weather =             (
+                            {
+                description = "light snow";
+                icon = 13d;
+                id = 600;
+                main = Snow;
+            }
+        );
+        wind =             {
+            deg = 66;
+            speed = "3.85";
+        };
+    },
+            {
+        clouds =             {
+            all = 100;
+        };
+        dt = 1610377200;
+        "dt_txt" = "2021-01-11 15:00:00";
+        main =             {
+            "feels_like" = "267.66";
+            "grnd_level" = 1016;
+            humidity = 97;
+            pressure = 1021;
+            "sea_level" = 1021;
+            temp = "272.35";
+            "temp_kf" = 0;
+            "temp_max" = "272.35";
+            "temp_min" = "272.35";
+        };
+        pop = "0.62";
+        snow =             {
+            3h = "0.21";
+        };
+        sys =             {
+            pod = n;
+        };
+        visibility = 7160;
+        weather =             (
+                            {
+                description = "light snow";
+                icon = 13n;
+                id = 600;
+                main = Snow;
+            }
+        );
+        wind =             {
+            deg = 52;
+            speed = "3.62";
+        };
+    },
+            {
+        clouds =             {
+            all = 97;
+        };
+        dt = 1610388000;
+        "dt_txt" = "2021-01-11 18:00:00";
+        main =             {
+            "feels_like" = "267.42";
+            "grnd_level" = 1016;
+            humidity = 96;
+            pressure = 1021;
+            "sea_level" = 1021;
+            temp = "272.03";
+            "temp_kf" = 0;
+            "temp_max" = "272.03";
+            "temp_min" = "272.03";
+        };
+        pop = "0.48";
+        snow =             {
+            3h = "0.13";
+        };
+        sys =             {
+            pod = n;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "light snow";
+                icon = 13n;
+                id = 600;
+                main = Snow;
+            }
+        );
+        wind =             {
+            deg = 59;
+            speed = "3.42";
+        };
+    },
+            {
+        clouds =             {
+            all = 94;
+        };
+        dt = 1610398800;
+        "dt_txt" = "2021-01-11 21:00:00";
+        main =             {
+            "feels_like" = "267.89";
+            "grnd_level" = 1017;
+            humidity = 97;
+            pressure = 1021;
+            "sea_level" = 1021;
+            temp = "271.89";
+            "temp_kf" = 0;
+            "temp_max" = "271.89";
+            "temp_min" = "271.89";
+        };
+        pop = "0.22";
+        sys =             {
+            pod = n;
+        };
+        visibility = 8354;
+        weather =             (
+                            {
+                description = "overcast clouds";
+                icon = 04n;
+                id = 804;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 67;
+            speed = "2.55";
+        };
+    },
+            {
+        clouds =             {
+            all = 91;
+        };
+        dt = 1610409600;
+        "dt_txt" = "2021-01-12 00:00:00";
+        main =             {
+            "feels_like" = "266.87";
+            "grnd_level" = 1017;
+            humidity = 96;
+            pressure = 1021;
+            "sea_level" = 1021;
+            temp = "271.83";
+            "temp_kf" = 0;
+            "temp_max" = "271.83";
+            "temp_min" = "271.83";
+        };
+        pop = "0.15";
+        sys =             {
+            pod = n;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "overcast clouds";
+                icon = 04n;
+                id = 804;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 67;
+            speed = "3.88";
+        };
+    },
+            {
+        clouds =             {
+            all = 97;
+        };
+        dt = 1610420400;
+        "dt_txt" = "2021-01-12 03:00:00";
+        main =             {
+            "feels_like" = "266.95";
+            "grnd_level" = 1017;
+            humidity = 97;
+            pressure = 1021;
+            "sea_level" = 1021;
+            temp = "271.6";
+            "temp_kf" = 0;
+            "temp_max" = "271.6";
+            "temp_min" = "271.6";
+        };
+        pop = "0.26";
+        sys =             {
+            pod = n;
+        };
+        visibility = 781;
+        weather =             (
+                            {
+                description = "overcast clouds";
+                icon = 04n;
+                id = 804;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 82;
+            speed = "3.42";
+        };
+    },
+            {
+        clouds =             {
+            all = 97;
+        };
+        dt = 1610431200;
+        "dt_txt" = "2021-01-12 06:00:00";
+        main =             {
+            "feels_like" = "266.62";
+            "grnd_level" = 1017;
+            humidity = 98;
+            pressure = 1021;
+            "sea_level" = 1021;
+            temp = "271.34";
+            "temp_kf" = 0;
+            "temp_max" = "271.34";
+            "temp_min" = "271.34";
+        };
+        pop = "0.51";
+        snow =             {
+            3h = "0.51";
+        };
+        sys =             {
+            pod = d;
+        };
+        visibility = 1157;
+        weather =             (
+                            {
+                description = "light snow";
+                icon = 13d;
+                id = 600;
+                main = Snow;
+            }
+        );
+        wind =             {
+            deg = 75;
+            speed = "3.5";
+        };
+    },
+            {
+        clouds =             {
+            all = 88;
+        };
+        dt = 1610442000;
+        "dt_txt" = "2021-01-12 09:00:00";
+        main =             {
+            "feels_like" = "268.36";
+            "grnd_level" = 1018;
+            humidity = 95;
+            pressure = 1022;
+            "sea_level" = 1022;
+            temp = "272.94";
+            "temp_kf" = 0;
+            "temp_max" = "272.94";
+            "temp_min" = "272.94";
+        };
+        pop = "0.02";
+        sys =             {
+            pod = d;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "overcast clouds";
+                icon = 04d;
+                id = 804;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 85;
+            speed = "3.52";
+        };
+    },
+            {
+        clouds =             {
+            all = 85;
+        };
+        dt = 1610452800;
+        "dt_txt" = "2021-01-12 12:00:00";
+        main =             {
+            "feels_like" = "270.14";
+            "grnd_level" = 1017;
+            humidity = 88;
+            pressure = 1021;
+            "sea_level" = 1021;
+            temp = "274.1";
+            "temp_kf" = 0;
+            "temp_max" = "274.1";
+            "temp_min" = "274.1";
+        };
+        pop = 0;
+        sys =             {
+            pod = d;
+        };
+        visibility = 10000;
+        weather =             (
+                            {
+                description = "overcast clouds";
+                icon = 04d;
+                id = 804;
+                main = Clouds;
+            }
+        );
+        wind =             {
+            deg = 82;
+            speed = "2.65";
+        };
+    }
+);
+message = 0;
+}
