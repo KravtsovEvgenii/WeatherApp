@@ -51,13 +51,13 @@ class AuthService{
         
     }
 
-    func logOut(completion: (Bool,Error?)-> Void) {
+    func logOut(completion: (Error?)-> Void) {
         do{
             try Auth.auth().signOut()
-            completion(true,nil)
+            completion(nil)
         }catch {
             print(error.localizedDescription)
-            completion(false,error)
+            completion(error)
         }
     }
 }

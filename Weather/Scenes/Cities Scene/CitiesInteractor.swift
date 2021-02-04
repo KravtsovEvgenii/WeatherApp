@@ -64,14 +64,10 @@ class CitiesInteractor: CitiesBusinessLogic {
             }
         }
     case .logout:
-        AuthService.shared.logOut { (success, err) in
-            if success {
-                presenter?.presentData(response: .logout(error: nil))
-            }else {
-                presenter?.presentData(response: .logout(error: err))
-            }
+        AuthService.shared.logOut { (err) in
+            presenter?.presentData(response: .logout(error: err))
         }
     }
   }
-  
+    
 }

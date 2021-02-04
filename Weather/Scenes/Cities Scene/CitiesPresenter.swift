@@ -9,27 +9,27 @@
 import UIKit
 
 protocol CitiesPresentationLogic {
-  func presentData(response: Cities.Model.Response.ResponseType)
+    func presentData(response: Cities.Model.Response.ResponseType)
 }
 
 class CitiesPresenter: CitiesPresentationLogic {
-  weak var viewController: CitiesDisplayLogic?
-  
-  func presentData(response: Cities.Model.Response.ResponseType) {
-    switch response {
+    weak var viewController: CitiesDisplayLogic?
     
-    case .prepareToDisplay(response: let response, cities: var cities):
+    func presentData(response: Cities.Model.Response.ResponseType) {
+        switch response {
         
-        let userCurrentCity = response.city.name
-        cities.insert(userCurrentCity, at: 0 )
-        viewController?.displayData(viewModel: .displayCities(cities: cities))
-        
-       
-    case .prepareUpdatedCities(cities: let cities):
-        viewController?.displayData(viewModel: .displayCities(cities: cities))
-    case .logout(error: let error):
-        viewController?.displayData(viewModel: .logout(error: error))
+        case .prepareToDisplay(response: let response, cities: var cities):
+            
+            let userCurrentCity = response.city.name
+            cities.insert(userCurrentCity, at: 0 )
+            viewController?.displayData(viewModel: .displayCities(cities: cities))
+            
+            
+        case .prepareUpdatedCities(cities: let cities):
+            viewController?.displayData(viewModel: .displayCities(cities: cities))
+        case .logout(error: let error):
+            viewController?.displayData(viewModel: .logout(error: error))
+        }
     }
-  }
-  
+    
 }

@@ -28,7 +28,7 @@ class WeatherCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    //MARK: SetupCell
+    //MARK: SetupCell from info
      func setupCell(fromItem item: WeatherInfo) {
         cardViewSetup()
         setupCellUI()
@@ -40,7 +40,7 @@ class WeatherCell: UITableViewCell {
         dateLabel.text = item.stringDate
    
      }
-    
+    //MARK: SetupCell with city title
     func setupCell(fromCity city: String) {
        cardViewSetup()
         cardView.addSubview(cityTitleLabel)

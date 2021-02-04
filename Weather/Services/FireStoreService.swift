@@ -12,7 +12,6 @@ class FireStoreService {
     static let shared = FireStoreService()
     private let dataBaseRef = Firestore.firestore()
     
-    
     func addToUserCities(cityTitle: String, forUser user: AppUser, completion: (([String],Error?)->Void)?) {
         getUserCities(forUser: user) { (result) in
             switch result {
@@ -61,7 +60,7 @@ class FireStoreService {
                     self.dataBaseRef.collection("cities").document(user.id).setData(["cities":finalCities])
                     completion(.success(finalCities))
                 })
-               
+                
             case .failure(let error):
                 completion(.failure(error))
             }

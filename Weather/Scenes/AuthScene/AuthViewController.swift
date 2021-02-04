@@ -127,6 +127,7 @@ extension AuthViewController {
         generalStackView.trailingAnchor.constraint(equalTo: view.trailingAnchor,constant: -40).isActive = true
     }
 }
+//MARK: UITextFieldDelegate
 extension AuthViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         UIView.animate(withDuration: 0.4) {
