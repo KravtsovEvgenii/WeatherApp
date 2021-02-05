@@ -174,6 +174,7 @@ extension CitiesViewController: UITableViewDataSource,UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("Some Difference")
+        print("Another Difference")
         router?.presentWeatherVC(withCity: cities[indexPath.row], user: self.currentUser)
     }
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
